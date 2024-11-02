@@ -40,15 +40,14 @@ This application is designed to manage and store card information securely. It a
    ```bash
    python main.py
    ```
-
-## Usage
-- To import card data, use the import function in the application.
-- Right-click on a card entry to access the context menu for options like Remove, BIN Check, and Submit Test.
-
+   
 ## Want to Edit the Program?
 If you want to make any edits or alterations and there IS a .ui present in the source code - Use
 [PYQT](https://www.qt.io/) and open the UI with that software
 
 
+### Usage
+- To import card data, use the import function in the application.
+- Right-click on a card entry to access the context menu for options like Remove, BIN Check, and Submit Test.
 
 <a href="https://t.me/CashOut_Assistant_Bot" rel="nofollow"><img src="https://camo.githubusercontent.com/7bc4ca5f3816cd0761370b2c95b024e61f105a08a2c381e5dfa1b3e812d3ed21/68747470733a2f2f63646e2e69636f6e2d69636f6e732e636f6d2f69636f6e73322f323533302f504e472f3531322f74656c656772616d5f627574746f6e5f69636f6e5f3135313833372e706e67" alt="Telegram" data-canonical-src="https://cdn.icon-icons.com/icons2/2530/PNG/512/telegram_button_icon_151837.png" style="max-width: 100%;"></a>
