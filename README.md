@@ -7,7 +7,8 @@
 
 ## Overview
 This application is designed to manage and store card information securely. It allows users to import card data from PDF files, perform BIN checks, and manage card entries through a user-friendly interface.
-![image](https://github.com/user-attachments/assets/df44ba1e-859b-439c-a3ed-240b91aceb79)
+![image](https://github.com/user-attachments/assets/27b3b02c-abef-4523-9f59-f5fd7166ba7d)
+
 
 ## Features
 - Import card data from PDF documents.
