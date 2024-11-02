@@ -25,6 +25,15 @@ IF NOT DEFINED PYTHON_VERSION_INSTALLED (
     echo Python %PYTHON_VERSION% is installed.
 )
 
+REM Upgrade pip before installing requirements
+echo Upgrading pip...
+"%PYTHON_EXEC%" -m pip install --upgrade pip
+IF ERRORLEVEL 1 (
+    echo Failed to upgrade pip.
+    pause
+    exit /b 1
+)
+
 REM Install requirements from requirements.txt if it exists
 IF EXIST "%REQUIREMENTS_FILE%" (
     echo Installing requirements from %REQUIREMENTS_FILE%...
