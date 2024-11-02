@@ -110,7 +110,9 @@ This application is designed to manage and store card information securely. It a
 - To import card data, use the import function in the application.
 - Right-click on a card entry to access the context menu for options like Remove, BIN Check, and Submit Test.
 
-
+## Want to Edit the Program?
+If you want to make any edits or alterations and there IS a .ui present in the source code - Use
+[PYQT](https://www.qt.io/) and open the UI with that software
 
 ## Contact
 For any inquiries, please open an issue in the GitHub repository.
